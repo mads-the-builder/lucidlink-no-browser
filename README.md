@@ -10,7 +10,7 @@ Also works with sndw.ch shortened links that wrap LucidLink URLs.
 
 ### Step 1: Install Finicky Sandwich
 
-Download `Finicky Sandwich.app` from this repo and move it to your **Applications** folder.
+Download `Finicky Sandwich.zip` from this repo, unzip it, and move the app to your **Applications** folder.
 
 ### Step 2: Set Finicky Sandwich as Your Default Browser
 
