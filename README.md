@@ -4,19 +4,19 @@
 
 When you click a LucidLink share link (like `https://app.lucidlink.com/l/...`), it normally opens your browser, loads a page, then eventually opens Finder. This skips the browser entirely and goes straight to Finder.
 
-Note: This doesn't work with sndw.ch links yet, but it might soon if you're nice to Ben.
+Also works with sndw.ch shortened links that wrap LucidLink URLs.
 
 ## Setup (5 minutes)
 
-### Step 1: Install Finicky
+### Step 1: Install Finicky Sandwich
 
-Download and install **version 4.2.2** from: https://github.com/johnste/finicky/releases
+Download `Finicky Sandwich.app` from this repo and move it to your **Applications** folder.
 
-### Step 2: Set Finicky as Your Default Browser
+### Step 2: Set Finicky Sandwich as Your Default Browser
 
-Launch Finicky and set it as your default browser. (This sounds scary but it won't affect your normal browsing — Finicky is just a URL router.)
+Launch Finicky Sandwich and set it as your default browser. (This sounds scary but it won't affect your normal browsing — it's just a URL router.)
 
-Or manually: **System Settings** → **Desktop & Dock** → **Default web browser** → **Finicky**
+Or manually: **System Settings** → **Desktop & Dock** → **Default web browser** → **Finicky Sandwich**
 
 ### Step 3: Install the Config
 
@@ -32,16 +32,16 @@ curl -o ~/.finicky.js https://raw.githubusercontent.com/mads-the-builder/lucidli
 curl -o ~/.finicky.js https://raw.githubusercontent.com/mads-the-builder/lucidlink-no-browser/main/finicky-safari.js
 ```
 
-### Step 4: Restart Finicky
+### Step 4: Restart Finicky Sandwich
 
-Quit Finicky and open it again. Since the menu bar icon is hidden, use Terminal:
+Quit Finicky Sandwich and open it again. Since the menu bar icon is hidden, use Terminal:
 ```
-killall Finicky && open -a Finicky
+killall "Finicky Sandwich" && open -a "Finicky Sandwich"
 ```
 
 ## Done!
 
-Click any LucidLink share link and it should open directly in Finder.
+Click any LucidLink share link (or sndw.ch shortened link) and it should open directly in Finder.
 
 ## Troubleshooting
 
