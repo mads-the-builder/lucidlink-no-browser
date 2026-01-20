@@ -1,5 +1,8 @@
 export default {
   defaultBrowser: "Google Chrome",
+  options: {
+    hideIcon: true
+  },
   rewrite: [
     {
       match: "app.lucidlink.com/l/*",
