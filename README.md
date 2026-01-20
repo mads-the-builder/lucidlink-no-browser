@@ -34,7 +34,10 @@ curl -o ~/.finicky.js https://raw.githubusercontent.com/mads-the-builder/lucidli
 
 ### Step 4: Restart Finicky
 
-Quit Finicky (click the icon in your menu bar → **Quit**) and open it again.
+Quit Finicky and open it again. Since the menu bar icon is hidden, use Terminal:
+```
+killall Finicky && open -a Finicky
+```
 
 ## Done!
 
