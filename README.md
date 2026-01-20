@@ -1,4 +1,4 @@
-# LucidLink No-Browser
+# Lucidlinks that don't open the browser every god damn time
 
 ## What This Does
 
