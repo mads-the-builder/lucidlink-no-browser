@@ -1,10 +1,10 @@
 # LucidLink No-Browser
 
-Click LucidLink share links and open files directly in Finder — no browser tabs.
-
 ## What This Does
 
-When you click a LucidLink share link (like `https://app.lucidlink.com/l/...`), it normally opens Chrome, loads a page, then eventually opens Finder. This skips the browser entirely and goes straight to Finder.
+When you click a LucidLink share link (like `https://app.lucidlink.com/l/...`), it normally opens your browser, loads a page, then eventually opens Finder. This skips the browser entirely and goes straight to Finder.
+
+Note: This doesn't work with sndw.ch links yet, but it might soon if you're nice to Ben.
 
 ## Setup (5 minutes)
 
@@ -32,9 +32,9 @@ curl -o ~/.finicky.js https://raw.githubusercontent.com/mads-the-builder/lucidli
 curl -o ~/.finicky.js https://raw.githubusercontent.com/mads-the-builder/lucidlink-no-browser/main/finicky-safari.js
 ```
 
-### Step 4: Reload Finicky
+### Step 4: Restart Finicky
 
-Click the Finicky icon in your menu bar (top right of screen) → **Reload Config**
+Quit Finicky (click the icon in your menu bar → **Quit**) and open it again.
 
 ## Done!
 
@@ -42,9 +42,4 @@ Click any LucidLink share link and it should open directly in Finder.
 
 ## Troubleshooting
 
-**Link still opens in browser?**
-- Make sure Finicky is your default browser (Step 2)
-- Make sure you reloaded the config (Step 4)
-
-**LucidLink app opens but file doesn't appear in Finder?**
-- Make sure you're connected to the filespace in LucidLink
+Ask Ben.
